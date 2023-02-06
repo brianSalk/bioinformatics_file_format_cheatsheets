@@ -27,6 +27,6 @@ The quality string is a sequence of characters with ASCII values in the range \[
 The higher the ASCII score, the higher chance that the read is correct.  
 The probability that the read is correct is  
 ```math
-$10^{(-A/10)}$
+10^{(-A/10)}$
 ```
 Where $A$ is the ASCII value of the character in the quality string.
