@@ -27,5 +27,5 @@ The quality string is a sequence of characters with ASCII values in the range \[
 The higher the ASCII score, the higher chance that the read is correct.  
 The 
 ```math
-$10^{(-\text{ASCII_VAL(char)}/10)}$
+$10^{(-\text{ASCII\_VAL(char)}/10)}$
 ```
