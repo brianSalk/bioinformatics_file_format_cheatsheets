@@ -8,6 +8,6 @@ The higher the ASCII value of the character, the higher certainty we have that t
 Phred quality score:  
 first convert the character to its ASCII score to get the Phred score.  
 Then you can calculate the probability that the read at each position is an error by the following equation:  
-```$
-10^{(-\text{Phred}/10)}
+```
+$10^{(-\text{Phred}/10)}$
 ```
