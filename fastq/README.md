@@ -25,7 +25,8 @@ repeat the above for each sequence you have.
 ## Quality String:  
 The quality string is a sequence of characters with ASCII values in the range \[33,126\] or characters in range \[!,~\]  
 The higher the ASCII score, the higher chance that the read is correct.  
-The 
+The probability that the read is correct is  
 ```math
-$10^{(-\text{ASCII\_VAL(char)}/10)}$
+$10^{(-A/10)}$
 ```
+Where $A$ is the ASCII value of the character in the quality string.
