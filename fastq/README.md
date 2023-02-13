@@ -30,4 +30,4 @@ The probability that the read is correct is
 10^{(-A/10)}$
 ```
 Where $A$ is the ASCII value of the character in the quality string.  
-With Next Generation Sequncers, it is common that the quality drops the longer the read gets.
+With Next Generation Sequncers, it is common that the quality drops off at the end of longer the reads due to the nature of NGS.
