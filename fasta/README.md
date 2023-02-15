@@ -21,6 +21,6 @@ most of the time, DNA will only contain A,C,G, and T or U.
 Sometimes however, you will find the following characters:  
 **N**: can represesnt any character  
 **lowercase characters**: soft masked portions of the sequence.  These sequences were masked for lacking complexity.  
-**R**: purine (G, A)
+**R**: purine (G, A)  
 **Y**: pyrimidines (T,C)
 
